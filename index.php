@@ -14,8 +14,10 @@
 </head>
 <body> <br> <br>
 
+    <form action="" method="post">
     <p><center><strong>Enregistrement des notes des élèves</strong></center></p> <br> <br> <br>
-    <center><button type="submit" name="envoyer">Enregistrer les notes</button></center>                                  
+    <center><button type="submit" name="envoyer">Enregistrer les notes</button></center>
+    </form>
    
 </body>
 </html>
