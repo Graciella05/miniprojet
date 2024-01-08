@@ -1,7 +1,7 @@
 <?php
-require_once('./Database/connect.php');
-require_once('./Model/Eleve.php');
-require_once('./Model/Note.php');
+require_once('../Database/connect.php');
+require_once('../Model/Eleve.php');
+require_once('../Model/Note.php');
 
 if(isset($_POST['validate'])){
     if(!empty($_POST['nom']) and !empty($_POST['prenom']) and !empty($_POST['note1']) and !empty($_POST['note2'])){
