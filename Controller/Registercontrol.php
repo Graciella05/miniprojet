@@ -2,10 +2,10 @@
     require_once('./index.php');
 
     if(isset($_POST['envoyer'])){
-            echo"Il semble y avoir une erreur veuillez recommencer.";
+        header('location: home.php');
         
     } else{
-        header('location: home.php');
+        //echo"Il semble y avoir une erreur veuillez recommencer.";
     }
 
 ?>
