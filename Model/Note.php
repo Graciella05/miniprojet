@@ -1,5 +1,5 @@
 <?php
-    require_once('Database/connect.php');
+    require_once('../Database/connect.php');
     class Note extends Database {
         public function ajouterNote($eleveId, $note1, $note2) {
             $query = 'INSERT INTO note (eleve_id, note1, note2) VALUES (:eleve_id, :note1, :note2)';

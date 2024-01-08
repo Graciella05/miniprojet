@@ -1,5 +1,5 @@
 <?php
-    require_once('Database/connect.php');
+    require_once('../Database/connect.php');
     class Eleve {
         private $db;
         public $id;
