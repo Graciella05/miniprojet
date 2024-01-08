@@ -1,6 +1,6 @@
 <?php
 
-    require_once('Controller/ElementControl.php');
+    require_once('./Controller/ElementControl.php');
     
 ?>
 
